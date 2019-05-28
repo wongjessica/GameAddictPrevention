@@ -1,13 +1,349 @@
-<!DOCTYPE html>
-<html>
 <head>
-	<title> GameAddictPrevention</title>
-</head>
 
-<body>
+<link rel="shortcut icon" type="image/png" href="https://imgur.com/a/HyFO5bV"/>
 
-. . .
+<!--<link rel="stylesheet" type="text/css" href="CSSFILENAME.css">-->
 
+<style type="text/css">
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #4CAF50;
+}
+
+body {
+color: #6E6E6E;
+background-color: #f7f7f7; 
+font-family: times new roman;
+line-height:13px;
+font-size:14px;
+padding: 0px;
+margin: 0px;
+background-image:url(http://i45.tinypic.com/16jhspi.png); 
+background-attachment: fixed;
+background-repeat: repeat;
+}
+ 
+#titleofpage{
+position:fixed;
+color:#6E6E6E;
+text-shadow:2px 3px 2px #000000;
+font-family:Trebuchet MS;
+font-size:75px;
+margin-top:80px;
+margin-left:340px;
+z-index:999;
+}
+ 
+#border{ 
+z-index:1;
+position: fixed;
+margin-left:20px;
+margin-top:100px;
+width:  1380px;
+height: 520px;
+box-shadow:0px 9px 10px #cdcdcd;
+background:#FAFAFA;
+border: 10px solid #fff;
+}
+
+/*
+#link1{
+position:fixed;
+z-index:999;
+background:white;
+margin-top:500px;
+margin-left:240px;
+width:auto;
+height:50px;
+padding:10px;
+border-right:5px solid #FF0000;
+border-bottom:5px solid #FF0000;
+border-top:5px solid #04B404;
+border-left:5px solid #04B404;
+font-family:stars;
+font-size:25px;
+line-height:60px;
+}
+
+#link2{
+position:fixed;
+z-index:999;
+background:white;
+margin-top:500px;
+margin-left:500px;
+width:auto;
+height:50px;
+padding:10px;
+border-right:5px solid #FF0000;
+border-bottom:5px solid #FF0000;
+border-top:5px solid #04B404;
+border-left:5px solid #04B404;
+font-family:stars;
+font-size:25px;
+line-height:60px;
+}
+
+#link3{
+position:fixed;
+z-index:999;
+background:white;
+margin-top:500px;
+margin-left:760px;
+width:auto;
+height:50px;
+padding:10px;
+border-right:5px solid #FF0000;
+border-bottom:5px solid #FF0000;
+border-top:5px solid #04B404;
+border-left:5px solid #04B404;
+font-family:stars;
+font-size:25px;
+line-height:60px;
+}
+
+#link4{
+position:fixed;
+z-index:999;
+background:white;
+margin-top:500px;
+margin-left:980px;
+width:auto;
+height:50px;
+padding:10px;
+border-right:5px solid #FF0000;
+border-bottom:5px solid #FF0000;
+border-top:5px solid #04B404;
+border-left:5px solid #04B404;
+font-family:stars;
+font-size:25px;
+line-height:60px;
+}
+*/
+
+#about{
+position:fixed;
+z-index:999;
+background:white;
+padding:10px;
+border-right:5px solid #585858;
+border-bottom:5px solid #D8D8D8;
+border-top:5px solid #D8D8D8;
+border-left:5px solid #585858;
+font-family:pewp;
+margin-top:130px;
+margin-left:60px;
+width:300px;
+height:450px;
+overflow:auto;
+line-height:17px;
+font-size:15px;
+}
+
+#male{
+position:fixed;
+z-index:999;
+background:white;
+padding:10px;
+border-right:5px solid #585858;
+border-bottom:5px solid #D8D8D8;
+border-top:5px solid #D8D8D8;
+border-left:5px solid #585858;
+font-family:pewp;
+margin-top:130px;
+margin-left:455px;
+width:400px;
+height:450px;
+overflow:auto;
+line-height:17px;
+font-size:15px;
+}
+
+#back{
+position:fixed;
+z-index:999;
+background:white;
+padding:10px;
+font-family:pewp;
+margin-top:-10px;
+margin-left:-10px;
+width:400px;
+height:450px;
+overflow:auto;
+line-height:17px;
+font-size:15px;	
+-webkit-transition: all .7s ease;
+-moz-transition: all .7s ease;
+-o-transition: all .7s ease;
+transition: all .7s ease;
+}
+#male:hover #back{
+opacity:1;
+-webkit-transition: all .7s ease;
+-moz-transition: all .7s ease;
+-o-transition: all .7s ease;
+transition: all .7s ease;
+}
+
+/*
+#wont{
+position:fixed;
+z-index:999;
+background:white;
+padding:10px;
+border-right:5px solid #585858;
+border-bottom:5px solid #D8D8D8;
+border-top:5px solid #D8D8D8;
+border-left:5px solid #585858;
+font-family:pewp;
+margin-top:130px;
+margin-left:940px;
+width:300px;
+height:150px;
+overflow:auto;
+line-height:17px;
+font-size:15px;
+}
+*/
+
+#female{
+position:fixed;
+z-index:99999999;
+background:white;
+padding:10px;
+border-right:5px solid #585858;
+border-bottom:5px solid #D8D8D8;
+border-top:5px solid #D8D8D8;
+border-left:5px solid #585858;
+font-family:pewp;
+margin-top:130px;
+margin-left:950px;
+width:400px;
+height:450px;
+line-height:17px;
+font-size:15px;
+overflow:auto;
+}
+
+
+a:link, a:active, a:visited{
+text-decoration: none;
+-webkit-transition: all 0.3s linear; 
+-moz-transition: all 0.3s linear; 
+transition: all 0.3s linear;
+color:#6E6E6E;
+}
+ 
+a:hover {
+text-shadow:0 0 10px #000;
+text-decoration:none;
+font-style:;
+color: #fff;
+-webkit-transition: all 0.3slinear; 
+-moz-trans	ition: all 0.3s linear; 
+transition: all 0.3s linear;
+}
+
+::-webkit-scrollbar-thumb{ 
+background-color: #2E64FE;
+border: 2px solid #000000;
+height:1px;
+-moz-border-radius: 20px;
+border-radius: 20px; 
+}
+
+::-webkit-scrollbar { 
+height:1px;
+width:9px; 
+background-color: #2E64FE;
+border: 4px solid #000000; 
+}
+
+::selection {
+background: #fff; /* background color of highlighted text*/
+color: #FF0000; /* color of highlighted text*/
+text-shadow: 0 0 3px #00FF00; /*shadow of highlighted text*/
+}
+::-moz-selection {
+background: #fff; /* background color of highlighted
+text*/
+color: #FF0000; /* color of highlighted text*/
+text-shadow: 0 0 3px #00FF00; /*shadow of highlighted text*/
+}
+
+#tree{
+position:fixed;
+z-index:99999999999;
+margin-top:500px;
+margin-left:170px;
+background-image:url(http://www.u.arizona.edu/~patricia/cute-collection/christmas-stuff/tree.gif);
+}
+
+@font-face { font-family: "stars"; src: url('http://static.tumblr.com/hcfbjje/sfRlpm8t0/starsfromoureyes.ttf'); }
+@font-face { font-family: "neverletgo"; src: url('http://static.tumblr.com/q54tzar/o02m2jt6c/neverletgo_3_.ttf'); }
+@font-face { font-family: "pewp"; src: url('http://static.tumblr.com/bepad33/6M6m295eu/delius-regular.ttf'); }
+
+@font-face { font-family: "caviardreams"; src: url('http://static.tumblr.com/4yxykdm/xXTlrecqr/caviardreams.ttf'); }
+
+</style>
+<title>Game Addict Prevention</title>
+<div id="titleofpage">Game Addict Prevention</div>
+<div id="border"></div>
+
+<div id="about"><br>
+<center><p><div style="font-family: stars; color:#6E6E6E;"><font size="4">What are we?:</font></div><p></center>
+
+Hello. Our names are Jessica Wong and Anupam Das. We created this website to raise awareness concerning game addiction! <br>
+
+It is a very serious issue.
+
+
+ </div>
+
+<div id="male"><div id="back"><br> 
+<center><p><div style="font-family: stars; color:#6E6E6E;"><font size="4">Text</font></div><p></center>
+
+
+ </div></div>
+ 
+ <div id="female"><br>
+<center><p><div style="font-family: stars; color:#6E6E6E;"><font size="4">Text Again</font></div><p></center>
+
+ </div>
+ 
+<!--<div id="tree"></div>-->
+
+
+<ul>
+  <li><a href="#home">Home</a></li>
+  <li><a href="#news">About Us</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li style="float:right"><a class="active" href="#about">Donate Now!</a></li>
+</ul>
+
+<body onkeydown="return false">
 </body>
 
-</html>
